@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.MoqHelper", "EntityFramework.MoqHelper\EntityFramework.MoqHelper.csproj", "{A526AE91-8C14-455D-B54F-5A3C9DB11505}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoClientApp", "DemoClientApp\DemoClientApp.csproj", "{B701B3F2-7432-45D3-B712-203A41D37128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoClientUnitTest", "DemoClientUnitTest\DemoClientUnitTest.csproj", "{EE9CCDC3-B07D-47DE-8669-645DC95B5544}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A526AE91-8C14-455D-B54F-5A3C9DB11505}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A526AE91-8C14-455D-B54F-5A3C9DB11505}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A526AE91-8C14-455D-B54F-5A3C9DB11505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B701B3F2-7432-45D3-B712-203A41D37128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B701B3F2-7432-45D3-B712-203A41D37128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B701B3F2-7432-45D3-B712-203A41D37128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B701B3F2-7432-45D3-B712-203A41D37128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE9CCDC3-B07D-47DE-8669-645DC95B5544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE9CCDC3-B07D-47DE-8669-645DC95B5544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE9CCDC3-B07D-47DE-8669-645DC95B5544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE9CCDC3-B07D-47DE-8669-645DC95B5544}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
