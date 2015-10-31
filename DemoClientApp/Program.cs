@@ -15,7 +15,7 @@ namespace DemoClientApp
             {
                 Console.WriteLine("Starting example...");
 
-                var customer = new Customer() { Name = "Lore Ipsum", Address = "Los Angeles, CA" };
+                var customer = new Customer() { Name = "Lorem Ipsum", Address = "Los Angeles, CA" };
 
                 var customerService = new CustomerService();
 
@@ -23,8 +23,11 @@ namespace DemoClientApp
 
                 Console.WriteLine("Inserting Customer...Done.");
 
-                Console.WriteLine("All basic CRUD operations done, give a look at 'DemoClientUnitTest' project to understand how EntityFramework.MoqHelper works");
+                var customerFromDataBase = customerService.GetByID(customer.CustomerID);
 
+                customerService.Remove(customer);
+
+                Console.WriteLine("All basic CRUD operations done, give a look at 'DemoClientUnitTest' project to understand how EntityFramework.MoqHelper works");
             }
             catch (Exception exc)
             {

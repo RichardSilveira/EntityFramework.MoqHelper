@@ -19,6 +19,11 @@ namespace DemoClientApp.Domain
             _dbSet = _context.Set<Customer>();
         }
 
+        public Customer GetByID(int ID)
+        {
+            return _dbSet.Find(ID);
+        }
+
         public void Insert(Customer customer)
         {
             //Bussines Rules
@@ -26,9 +31,14 @@ namespace DemoClientApp.Domain
                 throw new Exception("Customer name is required");
 
             _dbSet.Add(customer);
+
             _context.SaveChanges();
         }
 
-
+        public void Remove(Customer customer)
+        {
+            _dbSet.Remove(customer);
+            _context.SaveChanges();
+        }
     }
 }
