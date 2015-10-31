@@ -27,7 +27,7 @@ namespace DemoClientApp
 
                 customerService.Remove(customer);
 
-                Console.WriteLine("All basic CRUD operations done, give a look at 'DemoClientUnitTest' project to understand how EntityFramework.MoqHelper works");
+                Console.WriteLine("Some basic CRUD operations done, give a look at 'DemoClientUnitTest' project to understand how EntityFramework.MoqHelper works");
             }
             catch (Exception exc)
             {

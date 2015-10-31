@@ -12,7 +12,7 @@ namespace EntityFramework.MoqHelper
     public static class EntityFrameworkMoqHelper
     {
         /// <summary>
-        /// Create a Mock for DbSet<T>
+        /// Create a mock instance for DbSet
         /// </summary>
         /// <typeparam name="T">Associated type (class) on dbset of the DbContext</typeparam>
         /// <returns>Simple mocked DbSet</returns>
@@ -22,7 +22,7 @@ namespace EntityFramework.MoqHelper
         }
 
         /// <summary>
-        /// Create a mock for DbContext<T>
+        /// Create a mock instance for DbContext
         /// </summary>
         /// <typeparam name="T">Dbcontext type that will be mocked</typeparam>
         /// <returns>Simple mocked DbContext</returns>
@@ -32,7 +32,7 @@ namespace EntityFramework.MoqHelper
         }
 
         /// <summary>
-        /// Create a mock for DbContext and set it up with an instance of DbSet
+        /// Create a mock instance for DbContext and set it up with an instance of DbSet
         /// </summary>
         /// <typeparam name="TContext">DbContext type that will be mocked</typeparam>
         /// <typeparam name="TEntity">Associated type (class) on dbset of the DbContext</typeparam>

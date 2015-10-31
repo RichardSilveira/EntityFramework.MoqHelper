@@ -30,8 +30,8 @@ namespace DemoClientApp.Domain
             if (string.IsNullOrEmpty(customer.Name))
                 throw new Exception("Customer name is required");
 
-            _dbSet.Add(customer);
 
+            _dbSet.Add(customer);
             _context.SaveChanges();
         }
 
