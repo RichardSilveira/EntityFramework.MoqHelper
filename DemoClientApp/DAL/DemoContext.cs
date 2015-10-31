@@ -13,9 +13,8 @@ namespace DemoClientApp.DAL
     {
         public virtual DbSet<Customer> Customers { get; set; }
 
-        public DemoContext() : base(@"Data Source=NOTE-RICHARD\SHADOW;Initial Catalog=DemoForMoqHelper;Integrated Security=true;")
+        public DemoContext() : base(@"Data Source=.\SQLEXPRESS;Initial Catalog=DemoForMoqHelper;Integrated Security=true;")
         {
-            //todo:update datasource value to '.\SQLEXPRESS' for convention
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

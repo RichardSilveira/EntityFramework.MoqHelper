@@ -27,12 +27,15 @@ namespace DemoClientApp
 
                 customerService.Remove(customer);
 
-                Console.WriteLine("Some basic CRUD operations done, give a look at 'DemoClientUnitTest' project to understand how EntityFramework.MoqHelper works");
+                Console.WriteLine("Some basic CRUD operations done. Give a look at 'DemoClientUnitTest' project to understand how EntityFramework.MoqHelper works");
             }
             catch (Exception exc)
             {
                 Console.WriteLine(exc.Message);
                 Console.WriteLine("Stack: " + exc.StackTrace);
+
+                Console.WriteLine("");
+                Console.WriteLine("CURRENT DATA SOURCE (hard coded on DemoContext class): " + @"Data Source=.\SQLEXPRESS;Initial Catalog=DemoForMoqHelper;Integrated Security=true;");
             }
 
             Console.ReadKey();
