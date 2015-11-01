@@ -51,4 +51,4 @@ To install this package, run the following command in the Package Manager Consol
 
 **Install-Package EntityFramework.MoqHelper**
 
-For better understanding of mock with Entity Framework 6 read this article <a href="http://www.codeproject.com/Tips/1045590/Testing-with-mock-on-Entity-Framework" target="_blank">Testing with mock on Entity Framework 6</a> posted on codeproject:
+For better understanding of mock with Entity Framework 6 read this article <a href="http://www.codeproject.com/Tips/1045590/Testing-with-mock-on-Entity-Framework" target="_blank">Testing with mock on Entity Framework 6</a> posted on codeproject.
